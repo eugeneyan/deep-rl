@@ -2,12 +2,6 @@
 
 Repository implementing deep reinforcement learning and conducting experiments on the OpenAI environments
 
-## Models
-
-* Deep Q-Network (vanilla) [`dqn_plain.py`](models/dqn_plain.py)
-* Deep Q-Network (with target network) [`dqn.py`](models/dqn.py)
-* Double Deep Q-Network [`ddqn.py`](models/ddqn.py)
-
 ## Setup
 
 ```bash
@@ -35,6 +29,19 @@ python setup.py install
 ```
 
 More details here: <https://github.com/openai/gym/issues/100>
+
+## Environments
+
+Currently, the following environments are supported:
+
+* [CartPole](https://gym.openai.com/envs/CartPole-v0/)
+* [LunarLander](https://gym.openai.com/envs/LunarLander-v2/)
+
+## Models
+
+* Deep Q-Network (vanilla) [`dqn_plain.py`](models/dqn_plain.py)
+* Deep Q-Network (with target network) [`dqn.py`](models/dqn.py)
+* Double Deep Q-Network [`ddqn.py`](models/ddqn.py)
 
 ## Running experiments
 
