@@ -103,7 +103,7 @@ if __name__ == '__main__':
     parser.add_argument('--model', default='ddqn',
                         help='DeepRL model to use (options: dqn_plain, dqn, ddqn; default: %(default)s)')
     parser.add_argument('--render-env', default='y', help='Whether to render the environment (default: %(default)s)')
-    parser.add_argument('--render-freq', type=int, default=100,
+    parser.add_argument('--render-freq', type=int, default=500,
                         help='How frequently to render the env (default: %(default)s) '
                              '--render-env must be set to "y" to render environment')
 
