@@ -4,9 +4,9 @@ Repository implementing deep reinforcement learning and conducting experiments o
 
 ## Models
 
-* Deep Q-Network (vanilla)
-* Deep Q-Network (with target network)
-* Double Deep Q-Network
+* Deep Q-Network (vanilla) [`dqn_plain.py`](models/dqn_plain.py)
+* Deep Q-Network (with target network) [`dqn.py`](models/dqn.py)
+* Double Deep Q-Network [`ddqn.py`](models/ddqn.py)
 
 ## Setup
 
