@@ -40,7 +40,7 @@ More details here: <https://github.com/openai/gym/issues/100>
 
 Running experiments is a simple as 
 
-```
+```bash
 # To run experiment on cartpole environment
 python cartpole_runner.py
 
@@ -50,7 +50,7 @@ python lunarlander_runner.py
 
 ### Usage
 
-```
+```bash
 python lunarlander_runner.py --help
 
 usage: lunarlander_runner.py [-h] [--model MODEL] [--render-env RENDER_ENV]
@@ -63,7 +63,7 @@ optional arguments:
   --render-env RENDER_ENV
                         Whether to render the environment (default: y)
   --render-freq RENDER_FREQ
-                        How frequently to render the env (default: 100)
+                        How frequently to render the env (default: 500)
                         --render-env must be set to "y" to render environment
 ```
 
