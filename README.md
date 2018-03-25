@@ -11,13 +11,13 @@ Repository implementing deep reinforcement learning and conducting experiments o
 ## Setup
 
 ```bash
-# clone repo
+# Clone repo
 git clone git@github.com:eugeneyan/deep_rl.git && cd deep_rl
 
-# create conda environment
+# Create conda environment
 conda env create -f=environment.yml
 
-# activate environment
+# Activate environment
 source activate deep_rl
 ```
 
